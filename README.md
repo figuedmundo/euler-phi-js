@@ -25,6 +25,7 @@ Esta es una implementacion de la **Función φ de Euler**.
 Muestra el comportamiento de la funcion en un rango desde 1 hasta n
 
 Es el resultado de estar jugando con coffescript, asi que sientanse con el gusto de criticar.
+
 Originalmente queria hacer correr el archivo euler.coffe pero me salieron errores criticos, y
 para no perder tiempo, el archivo euler.js esta generado por coffescript, y es el que se importa.
 
@@ -36,3 +37,7 @@ Dependencias
 --------------
 
   * Todas las dependencias se encuentran en la carpeta lib/
+
+Preview
+----------
+ *http://figuedmundo.github.com/euler-phi-js*
