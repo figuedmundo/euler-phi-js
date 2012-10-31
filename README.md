@@ -9,8 +9,12 @@ It was developed in the way of learning coffescript, so it could not be optimal.
 
 So if you can improve this, you are welcome. :D
 
+
+> just run the index.html
+
 PS: after do this I was seeing the projecteuler.net, problem 70. 
 It seems it solve this
+
 
 
 Función φ de Euler
@@ -21,10 +25,14 @@ Esta es una implementacion de la **Función φ de Euler**.
 Muestra el comportamiento de la funcion en un rango desde 1 hasta n
 
 Es el resultado de estar jugando con coffescript, asi que sientanse con el gusto de criticar.
-O riginalmente queria hacer correr el archivo euler.coffe pero me salieron errores criticos, y
+Originalmente queria hacer correr el archivo euler.coffe pero me salieron errores criticos, y
 para no perder tiempo, el archivo euler.js esta generado por coffescript, y es el que se importa.
 
-*Dependencias
+### Que? ###
+> index.html
+
+
+Dependencias
 --------------
 
   * Todas las dependencias se encuentran en la carpeta lib/
