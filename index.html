@@ -6,7 +6,11 @@
     <title>Euler-phi-js by figuedmundo</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <link rel="stylesheet" href="stylesheets/custom.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/raphael-min.js"></script>
+    <script src="javascripts/morris.min.js"></script>
+    <script src="javascripts/euler.js"></script>
     <script src="javascripts/respond.js"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -38,46 +42,47 @@
           <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
         </div>
 
-        <h1>Euler's totient function</h1>
+        <div id="preguntas">
+          <p>
+            Hasta N = 
+            <input type="number" name="n" id="n">
+            <input type="button" id="calcular" name="calcular" value="calcular">
+          </p>
+          <p>
+          </p>
+          <p id="res"><strong>Para hacer la prueba valores menores a 100 se puede visualzar mejor</strong></p>
+        </div>
 
-<p><em><a href="http://en.wikipedia.org/wiki/Euler%27s_totient_function">http://en.wikipedia.org/wiki/Euler%27s_totient_function</a></em></p>
+        <div id="chart"></div>
 
-<p>This is and implementation of the <strong>Euler's phi function</strong>. 
-It shows the behaivor of the funtion in 1..n</p>
+        <br />
 
-<p>It was developed in the way of learning coffescript, so it could not be optimal.</p>
+        <h2>Euler's totient function</h2>
 
-<p>So if you can improve this, you are welcome. :D</p>
+          <p><em><a href="http://en.wikipedia.org/wiki/Euler%27s_totient_function">http://en.wikipedia.org/wiki/Euler%27s_totient_function</a></em></p>
 
-<blockquote>
-<p>just run the index.html</p>
-</blockquote>
+          <p>This is and implementation of the <strong>Euler's phi function</strong>. 
+          It shows the behaivor of the funtion in 1..n</p>
 
-<p>PS: after do this I was seeing the projecteuler.net, problem 70. 
-It seems it solve this</p>
+          <p>It was developed in the way of learning coffescript, so it could not be optimal.</p>
 
-<h1>Función φ de Euler</h1>
+          <p>So if you can improve this, you are welcome. :D</p>
 
-<p><a href="http://es.wikipedia.org/wiki/Funci%C3%B3n_%CF%86_de_Euler">http://es.wikipedia.org/wiki/Funci%C3%B3n_%CF%86_de_Euler</a></p>
+          <p>PS: after do this I was seeing the projecteuler.net, problem 70. 
+          It seems it solve this</p>
 
-<p>Esta es una implementacion de la <strong>Función φ de Euler</strong>.
-Muestra el comportamiento de la funcion en un rango desde 1 hasta n</p>
+          <h2>Función φ de Euler</h2>
 
-<p>Es el resultado de estar jugando con coffescript, asi que sientanse con el gusto de criticar.
-Originalmente queria hacer correr el archivo euler.coffe pero me salieron errores criticos, y
-para no perder tiempo, el archivo euler.js esta generado por coffescript, y es el que se importa.</p>
+          <p><a href="http://es.wikipedia.org/wiki/Funci%C3%B3n_%CF%86_de_Euler">http://es.wikipedia.org/wiki/Funci%C3%B3n_%CF%86_de_Euler</a></p>
 
-<h3>Que?</h3>
+          <p>Esta es una implementacion de la <strong>Función φ de Euler</strong>.
+          Muestra el comportamiento de la funcion en un rango desde 1 hasta n</p>
 
-<blockquote>
-<p>index.html</p>
-</blockquote>
+          <p>Es el resultado de estar jugando con coffescript, asi que sientanse con el gusto de criticar.
+          Originalmente queria hacer correr el archivo euler.coffe pero me salieron errores criticos, y
+          para no perder tiempo, el archivo euler.js esta generado por coffescript, y es el que se importa.</p>
 
-<h2>Dependencias</h2>
-
-<ul>
-<li>Todas las dependencias se encuentran en la carpeta lib/</li>
-</ul>
+         
       </section>
 
     </div>
